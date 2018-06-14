@@ -12,22 +12,17 @@ menu:
     icon: fa-home 
   - page: 代码
     directory: code/
-    icon: fa-xie 
-  - page: 工具箱
-    directory: util/
-    icon: fa-rili  
-  - page: 简历
-    directory: resume/
-    icon: fa-fei           
+    icon: fa-xie           
   - page: 归档
     directory: archives/
     icon: fa-archive
+  - page: 简历
+    directory: resume/
+    icon: fa-fei 
   - page: 关于
     directory: about/
     icon: fa-user
-  - page: 订阅
-    directory: atom.xml
-    icon: fa-rss
+
 
 # Sidebar
 widgets:
