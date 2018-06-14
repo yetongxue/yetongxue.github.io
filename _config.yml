@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 叶统学
+title: 叶统学の博客
 subtitle:
-description:
+description: 有些事可求，但不可强求
 keywords:
-author: scott
-language:
-timezone:
+author: 叶统学
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://yetongxue.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/ #:year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
