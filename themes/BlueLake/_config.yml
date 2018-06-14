@@ -102,23 +102,6 @@ show_category_count: true ## If you want to show the count of categories in the 
 widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 
-# About page
-about:
-  photo_url: http://m.qpic.cn/psb?/V14B1DnT4HLbyQ/RG*rNI5VQFeoTgXwGtilf0lf9Q5g1ExxzXuGI0weFxQ!/b/dDIBAAAAAAAA&bo=zADMAAAAAAARBzA!&rf=viewer_4
-  items:
-  - label: email
-    icon: fa-email
-    url: dqpiytu@163.com
-    title: dqpiytu@163.com
-  - label: github
-    icon: fa-github
-    url: https://github.com/yetongxue
-    title: yetongxue
-  - label: weibo
-    icon: fa-weibo
-    url: https://weibo.com/u/3932472768
-    title: 早餐有蛋
-
 
 # Links widget. Empty links will hide widget.
 links:
