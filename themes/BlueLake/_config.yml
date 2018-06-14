@@ -31,7 +31,7 @@ widgets:
   - tag
   - archive
   #- weibo
-  - links
+  #- links
 
 # Toc
 toc:
@@ -104,9 +104,9 @@ busuanzi: true ## If you want to use Busuanzi page views please set the value to
 
 # About page
 about:
-  photo_url: http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
+  photo_url: http://m.qpic.cn/psb?/V14B1DnT4HLbyQ/RG*rNI5VQFeoTgXwGtilf0lf9Q5g1ExxzXuGI0weFxQ!/b/dDIBAAAAAAAA&bo=zADMAAAAAAARBzA!&rf=viewer_4
   items:
-  - label: 邮箱
+  - label: email
     icon: fa-email
     url: dqpiytu@163.com
     title: dqpiytu@163.com
@@ -118,14 +118,7 @@ about:
     icon: fa-weibo
     url: https://weibo.com/u/3932472768
     title: 早餐有蛋
-  - label: twitter
-    icon: fa-twitter
-    url:
-    title:
-  - label: facebook
-    icon: fa-facebook
-    url:
-    title:
+
 
 # Links widget. Empty links will hide widget.
 links:

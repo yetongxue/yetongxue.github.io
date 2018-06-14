@@ -7,8 +7,8 @@ title: 叶统学の博客
 subtitle:
 description: 有些事可求，但不可强求
 keywords:
-author: 叶统学
-language: zh-Hans
+author: scott
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -24,7 +24,8 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-code_dir: downloads/code
+code_dir: code
+resume_dir: resume
 i18n_dir: :lang
 skip_render:
 
