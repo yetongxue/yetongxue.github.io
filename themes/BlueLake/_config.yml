@@ -9,37 +9,16 @@ version: 2.0.1
 menu:
   - page: 首页
     directory: .
-    icon: fa-home
-  - page: 代码1
-    directory: .
-    icon: fa-sou
-  - page: 代码2
-    directory: .
-    icon: fa-commt  
-  - page: 代码3
-    directory: .
+    icon: fa-home 
+    - page: 代码
+    directory: code/
+    icon: fa-xie 
+  - page: 工具箱
+    directory: util/
     icon: fa-rili  
-  - page: 代码4
-    directory: .
-    icon: fa-gui  
-  - page: 代码5
-    directory: .
-    icon: fa-biao 
-  - page: 代码6
-    directory: .
-    icon: fa-fei   
-  - page: 代码7
-    directory: .
-    icon: fa-hit   
-  - page: 代码8
-    directory: .
-    icon: fa-huo   
-  - page: 代码9
-    directory: .
-    icon: fa-right  
-  - page: 代码10
-    directory: .
-    icon: fa-xie      
+  - page: 简历
+    directory: resume/
+    icon: fa-fei           
   - page: 归档
     directory: archives/
     icon: fa-archive
