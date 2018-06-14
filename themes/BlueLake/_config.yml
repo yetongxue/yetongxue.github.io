@@ -10,7 +10,7 @@ menu:
   - page: 首页
     directory: .
     icon: fa-home 
-    - page: 代码
+  - page: 代码
     directory: code/
     icon: fa-xie 
   - page: 工具箱
