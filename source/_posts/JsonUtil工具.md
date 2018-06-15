@@ -1,11 +1,12 @@
 ---
-title: 基于jackson的json和object相互转换的工具类
+title: JsonUtil工具类
 date: 2017-01-07 23:55:44
 updated: 
 categores:
 permalink:
 tags: [jsonUtil,工具类]
 ---
+基于jackson的json和object相互转换的工具类。
 
 ```
 import java.io.IOException;

@@ -6,6 +6,8 @@ categores:
 permalink:
 tags: [HttpUtil,工具类]
 ---
+HttpUtil工具类使用HttpClients
+
 ```
 import java.io.IOException;
 import java.io.InputStream;
