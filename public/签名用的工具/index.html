@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="有些事可求，但不可强求"><title>签名用的工具 | 叶统学の博客</title><link rel="stylesheet" type="text/css" href="/css/fonts_neworld_org.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.1"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">签名用的工具</h1><a id="logo" href="/.">叶统学の博客</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/code/"><i class="fa fa-xie"> 代码</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/resume/index"><i class="fa fa-fei"> 简历</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="Arama"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">签名用的工具</h1><div class="post-meta"><a href="/签名用的工具/#comments" class="comment-count"></a><p><span class="date">Jun 14, 2018</span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i>点击</i></i></span></p></div><div class="post-content"><pre><code>import java.io.StringReader;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
+import org.xml.sax.InputSource;
+/**
+* ClassName:SignUtils&lt;/br&gt;
+* Function: 签名用的工具箱&lt;/br&gt;
+* Date:     2017-2-27 下午3:22:33 &lt;/br&gt;
+* &lt;功能详细描述&gt;签名算法&lt;/br&gt;
+* 签名生成的通用步骤如下：&lt;/br&gt;
+* 第一步，设所有发送或者接收到的数据为集合M，将集合M内非空参数值的参数按照参数名ASCII码从小到大排序（字典序），使用URL键值对的格式（即key1=value1&amp;key2=value2…）拼接成字符串stringA。&lt;/br&gt;
+* 第二步，在stringA最后拼接上key得到stringSignTemp字符串，并对stringSignTemp进行MD5运算，再将得到的字符串所有字符转换为大写，得到sign值signValue。&lt;/br&gt;
+* 特别注意以下重要规则：&lt;/br&gt;
+* ◆ 参数名ASCII码从小到大排序（字典序）；&lt;/br&gt;
+* ◆ 如果参数的值为空不参与签名；&lt;/br&gt;
+* ◆ 参数名区分大小写；&lt;/br&gt;
+* ◆ 验证调用返回或主动通知签名时，传送的sign参数不参与签名，将生成的签名与该sign值作校验。&lt;/br&gt;
+* ◆ key值由互金端提供；&lt;/br&gt;
+* @author    
+*/
+
+public class SignUtils {
+    public static void main(String[] args) {
+        String key = &quot;CvRu8Dydbe7SETJoqh5wQYBp4PnZxigz&quot;;
+        SortedMap&lt;String,String&gt; params = new TreeMap&lt;String,String&gt;();
+        params.put(&quot;orderId&quot;, &quot;1112233&quot;);
+        params.put(&quot;merchantId&quot;, &quot;3700603014&quot;);
+        params.put(&quot;applyAmount&quot;, &quot;1000000&quot;);
+        params.put(&quot;sign&quot;, &quot;sdfsdf&quot;);
+        String sign = getSign(params,key);//签名
+        System.out.println(&quot;sign:&quot;+sign.toUpperCase());
+        params.put(&quot;sign&quot;, sign.toUpperCase());
+        System.out.println(&quot;sign:&quot;+checkParam(params,key));//验证
+    }
+    /** &lt;一句话功能简述&gt;
+     * &lt;功能详细描述&gt;验证返回参数
+     * @param params
+     * @param key
+     * @return
+     * @see [类、类#方法、类#成员]
+     */
+    public static boolean checkParam(Map&lt;String,String&gt; params,String key){
+        boolean result = false;
+        if(params.containsKey(&quot;sign&quot;)){
+            String sign = params.get(&quot;sign&quot;);
+            params.remove(&quot;sign&quot;);
+            params = paraFilter(params);
+            StringBuilder buf = new StringBuilder((params.size() +1) * 10);
+            SignUtils.buildPayParams(buf,params,false);
+            String preStr = buf.toString();
+            String signRecieve = MD5.sign(preStr, &quot;&amp;key=&quot; + key, &quot;utf-8&quot;);
+            System.out.println(signRecieve);
+            result = sign.equalsIgnoreCase(signRecieve);
+        }
+        return result;
+    }
+
+    /**
+     * 获取签名
+     * @param map 对象
+     * @param key 密匙
+     * @return 签名
+     */
+    public static String getSign(SortedMap&lt;String,String&gt; map,String key){
+        Map&lt;String, String&gt; params = SignUtils.paraFilter(map);
+        StringBuilder buf = new StringBuilder((params.size() + 1) * 10);
+        SignUtils.buildPayParams(buf, params, false);
+        String preStr = buf.toString();
+        System.out.println(preStr);
+        String sign = MD5.sign(preStr, &quot;&amp;key=&quot; + key, &quot;utf-8&quot;).toUpperCase();
+        return sign;
+    }
+
+    /**
+     * 过滤参数:过滤掉sArray中value为空和key为sign的键值对
+     * @param sArray
+     * @return
+     */
+
+    public static Map&lt;String, String&gt; paraFilter(Map&lt;String, String&gt; sArray) {
+        Map&lt;String, String&gt; result = new HashMap&lt;String, String&gt;(sArray.size());
+        if (sArray == null || sArray.size() &lt;= 0) {
+            return result;
+        }
+        for (String key : sArray.keySet()) {
+            String value = sArray.get(key);
+            if (value == null || value.equals(&quot;&quot;) || key.equalsIgnoreCase(&quot;sign&quot;)) {
+                continue;
+            }
+            result.put(key, value);
+        }
+        return result;
+    }
+
+
+   /**
+    * 将集合M内非空参数值的参数按照参数名ASCII码从小到大排序（字典序），使用URL键值对的格式（即key1=value1&amp;key2=value2…）拼接成字符串stringA
+    * @param sb 返回的字符串
+    * @param payParams  集合M
+    * @param encoding 是否需要经过UTF-8编码：true-需要  false-不需要
+    */
+
+    public static void buildPayParams(StringBuilder sb,Map&lt;String, String&gt; payParams,boolean encoding){
+        List&lt;String&gt; keys = new ArrayList&lt;String&gt;(payParams.keySet());
+        Collections.sort(keys);
+        for(String key : keys){
+            sb.append(key).append(&quot;=&quot;);
+            if(encoding){
+                sb.append(urlEncode(payParams.get(key)));
+            }else{
+                sb.append(payParams.get(key));
+            }
+            sb.append(&quot;&amp;&quot;);
+        }
+        sb.setLength(sb.length() - 1);
+    }
+
+    public static String urlEncode(String str){
+        try {
+            return URLEncoder.encode(str, &quot;UTF-8&quot;);
+        } catch (Throwable e) {
+            return str;
+        }
+    }
+
+
+    public static Element readerXml(String body,String encode) throws DocumentException {
+        SAXReader reader = new SAXReader(false);
+        InputSource source = new InputSource(new StringReader(body));
+        source.setEncoding(encode);
+        Document doc = reader.read(source);
+        Element element = doc.getRootElement();
+        return element;
+    }
+
+}
+</code></pre></div><div class="tags"></div><div class="post-share"><div data-thread-key="签名用的工具/" data-title="签名用的工具" data-url="https://yetongxue.github.io/签名用的工具/" class="ds-share flat"><div class="ds-share-inline"><ul class="ds-share-icons-16"><li data-toggle="ds-share-icons-more"><a href="javascript:void(0);" class="ds-more">分享到:</a></li><li><a href="javascript:void(0);" data-service="weibo" class="ds-weibo">微博</a></li><li><a href="javascript:void(0);" data-service="qzone" class="ds-qzone">QQ空间</a></li><li><a href="javascript:void(0);" data-service="qqt" class="ds-qqt">腾讯微博</a></li><li><a href="javascript:void(0);" data-service="wechat" class="ds-wechat">微信</a></li></ul><div class="ds-share-icons-more"></div></div></div><div class="bdsharebuttonbox"><span style="float:left;line-height: 28px;height: 28px;font-size:16px;font-weight:blod">分享到：</span><a href="#" data-cmd="more" class="bds_more"></a><a href="#" data-cmd="mshare" title="分享到一键分享" class="bds_mshare"></a><a href="#" data-cmd="fbook" title="分享到Facebook" class="bds_fbook"></a><a href="#" data-cmd="twi" title="分享到Twitter" class="bds_twi"></a><a href="#" data-cmd="linkedin" title="分享到linkedin" class="bds_linkedin"></a><a href="#" data-cmd="youdao" title="分享到有道云笔记" class="bds_youdao"></a><a href="#" data-cmd="evernotecn" title="分享到印象笔记" class="bds_evernotecn"></a><a href="#" data-cmd="weixin" title="分享到微信" class="bds_weixin"></a><a href="#" data-cmd="qzone" title="分享到QQ空间" class="bds_qzone"></a><a href="#" data-cmd="tsina" title="分享到新浪微博" class="bds_tsina"></a></div></div><div class="post-nav"><a href="/常见异常/" class="pre">常见异常</a></div><div id="comments"></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/常见异常/">常见异常</a></li><li class="post-list-item"><a class="post-list-link" href="/签名用的工具/">签名用的工具</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a></li></ul></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">Baidu Site Haritası</a> |  <a href="/atom.xml">订阅</a> |  <a href="/about/">关于</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次</p><p><span> Copyright &copy;<a href="/." rel="nofollow">scott.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.1"></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.1" async></script><script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","weixin","tsina","qzone","linkedin","fbook","twi","print","renren","sqq","evernotecn","bdysc","tqq","tqf","bdxc","kaixin001","tieba","douban","bdhome","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","h163","copy"],"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"]}};with(document)0[(getElementsByTagName('head')[0]||head).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script></body></html>
