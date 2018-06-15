@@ -104,7 +104,7 @@ busuanzi: true ## If you want to use Busuanzi page views please set the value to
 
 # About page
 about:
-  photo_url: ../photos/20180615095642.png
+  photo_url: ../photos/20180615130801.jpg
   items:
   - label: email
     icon: fa-email
