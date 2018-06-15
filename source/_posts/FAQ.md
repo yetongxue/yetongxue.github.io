@@ -2,14 +2,15 @@
 title: 常见异常
 date: 2017-01-07 22:55:44
 updated: 
-categores:
+categores: 备忘
 permalink:
 tags: 常见异常
 ---
 
 ## 1、spring boot启动报异常 ##
 ```
-Exception in thread "main" java.lang.UnsupportedClassVersionError: org/springframework/boot/loader/JarLauncher : Unsupported major.minor version 52.0
+Exception in thread "main" java.lang.UnsupportedClassVersionError: 
+org/springframework/boot/loader/JarLauncher : Unsupported major.minor version 52.0
 ```
 解决办法：
 1. 换成jdk1.8<br>

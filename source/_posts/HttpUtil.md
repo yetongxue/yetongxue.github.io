@@ -2,7 +2,7 @@
 title: HttpUtil工具类
 date: 2017-01-07 24:55:44
 updated: 
-categores:
+categores: code
 permalink:
 tags: [HttpUtil,工具类]
 ---
