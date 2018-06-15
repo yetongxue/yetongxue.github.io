@@ -1,0 +1,24 @@
+<%- partial('pagenav', {nav_head: __('current_page') + __('page_name.tags'), partial_path: null, archive_html: null}) %>
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+            <div class="entry <%= theme.color.link %>-link-context">
+
+                <% if (site.tags.length){ %>
+                <div class="widget-wrap">
+                    <h3 class="widget-title"><%- item.title %></h3>
+                    <div class="widget tagcloud">
+                        <%- tagcloud() %>
+                    </div>
+                </div>
+                <% } %>
+
+                <%- item.content %>
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+<%- partial('plugin/comment') %>

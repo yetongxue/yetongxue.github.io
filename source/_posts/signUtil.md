@@ -2,7 +2,7 @@
 title: 签名用的工具箱
 date: 2017-01-07 22:55:44
 updated: 
-categores: code
+categories: code
 permalink:
 tags: [签名,工具类]
 ---

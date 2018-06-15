@@ -2,7 +2,7 @@
 title: 常见异常
 date: 2017-01-07 22:55:44
 updated: 
-categores: 备忘
+categories: 备忘
 permalink:
 tags: 常见异常
 ---

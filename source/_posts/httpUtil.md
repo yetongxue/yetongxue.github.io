@@ -2,12 +2,12 @@
 title: HttpUtil工具类
 date: 2017-01-07 24:55:44
 updated: 
-categores: code
+categories: code
 permalink:
 tags: [HttpUtil,工具类]
 ---
 HttpUtil工具类使用HttpClients
-
+<!-- more -->
 ```
 import java.io.IOException;
 import java.io.InputStream;

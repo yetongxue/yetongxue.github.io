@@ -11,7 +11,7 @@ menu:
     directory: .
     icon: fa-home 
   - page: 代码
-    directory: code/
+    directory: categories/code/
     icon: fa-xie           
   - page: 归档
     directory: archives/

@@ -1,0 +1,26 @@
+<% var item = page; %>
+<% var aboutData = site.data.about; %>
+<div class="container main-container">
+    <%- partial('_partial/pagenav', {nav_head: __('current_page') + __('（' + item.title + '）'), partial_path: null, archive_html: null}) %>
+    <article>
+        <div class="card">
+            <div class="card-content">
+                <% if (item.photos && item.photos.length) { %>
+                    <%- partial('_partial/post/gallery') %>
+                <% } %>
+
+                <div class="entry <%= theme.color.link %>-link-context">
+                    <%- item.content %>
+                    
+                    <% if (aboutData.reward && aboutData.reward.length > 0) { %>
+                        <section class="reward">
+                            <%- partial('_partial/plugin/reward') %>
+                        </section>
+                    <% } %>
+                </div>
+                
+            </div>
+        </div>
+    </article>
+    <%- partial('_partial/plugin/comment') %>
+</div>

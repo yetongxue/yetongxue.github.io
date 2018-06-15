@@ -1,0 +1,17 @@
+extends base
+
+block title
+  title= page.title + ' | ' + config.title
+
+block content
+  .post
+    h1.post-title= page.title
+    .post-content
+      != page.content
+    if theme.comment && page.comments
+      #comments
+        include _partial/comments
+block pageOnly
+  script(type='text/javascript', src=url_for(theme.js) + '/totop.js' + '?v=' + theme.version, async)
+  if theme.comment
+    include _partial/comments_js
