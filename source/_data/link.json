@@ -6,12 +6,10 @@
 		"rss": "/atom.xml"
     },
     "extern": {
-        "我的码云": "#",
+        "我的Github": "https://github.com/yetongxue?tab=repositories",
         "早餐有蛋": "#",
         "静觅": "http://cuiqingcai.com/",
-        "Ｌunａ": "https://luna.fancylog.net/",
         "Alliot's blog": "https://www.iots.vip/",
-        "lilyssh":"https://lilyssh.github.io/",
         "Myths":"https://blog.mythsman.com/"
     }
 }
