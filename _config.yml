@@ -6,14 +6,14 @@
 title: 叶统学の博客
 subtitle: 叶统学の博客
 description: 一个苦逼的程序员,主攻JAVA,略懂前端,本博客做知识记录分享使用!
-keywords: 叶统学の博客,千寻个人博客,张斌,JAVA,程序员,960339491,nginx,js,spring,linux
+keywords: 叶统学の博客,JAVA,程序员,nginx,js,spring,linux
 author: 叶统学の博客
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://qianxunclub.com
+url: https://github.com/yetongxue/yetongxue.github.io.git
 root: /
 permalink: :title/
 permalink_defaults: :title/

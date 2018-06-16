@@ -41,23 +41,23 @@ menu:
     icon: search
     class: menu-search modal-trigger
 
-# 颜色配置
+# 颜色配置 https://materializecss.com/color.html#palette
 color:
-  header: indigo
-  footer: indigo
-  page_nav: indigo
-  side_nav: indigo darken-1
-  tag: pink lighten-1
-  article_title_link: indigo
-  link: pink
-  pagination: pink
-  tab: pink
+  header: cyan darken-2
+  footer: cyan darken-2
+  page_nav: cyan darken-2
+  side_nav: cyan darken-2
+  tag: teal lighten-1
+  article_title_link: blue-grey
+  link: teal
+  pagination: teal
+  tab: teal
   archive_item: grey
-  fab: pink
+  fab: teal
   fab_2: green
   fab_3: yellow darken-1
   new: pink
-  about_header: indigo
+  about_header: cyan darken-2
   about_title: indigo
 
 archive_yearly: true
@@ -73,7 +73,6 @@ duoshuo_shortname:
 yungentie_product_key:
 # 畅言
 changyan_appid: cysuusGWK
-changyan_conf: prod_c0fa4ae22717cf1406a1e4e0963a0bdd
 
 # Google分析track id，若为空则不启用
 google_analytics:

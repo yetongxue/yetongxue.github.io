@@ -1,8 +1,8 @@
 {
-    "avatar": "http://oh6t6o35a.bkt.clouddn.com/head.png",
-    "name": "千寻啊千寻",
+    "avatar": "../photos/20180615130801.jpg",
+    "name": "叶统学",
 	"tag": "JAVA/架构/开发",
-    "desc": "QQ：960339491",
+    "desc": "QQ：1049385445",
     "skills": {
 		"JAVA": 8,
 		"Mysql": 8,
@@ -14,7 +14,7 @@
 		"前端": 6
     },
 	"reward": [
-	    "http://oh6t6o35a.bkt.clouddn.com/weixinzhifu.jpg",
-		"http://oh6t6o35a.bkt.clouddn.com/zhifubaozhifu.jpg"
+	    "../../photos/weixin_qrcode.png",
+		"../../photos/zhifubao_qrcode.png"
 	]
 }

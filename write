@@ -1,0 +1,6 @@
+
+git pull
+
+hexo g
+
+hexo deploy

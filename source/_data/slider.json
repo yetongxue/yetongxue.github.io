@@ -1,9 +1,23 @@
 [
     {
-        "image": "http://wailian.work/images/2018/05/22/banner1.jpg",
+        "image": "../pic/banner1.png",
         "align": "left",
-        "title": "博客搬家!",
-        "subtitle": "因为ghost博客太蛋疼了，换hexo博客使用，部分文章没有同步过来，可以访问：https://blog.csdn.net/z960339491",
-        "link": "https://blog.csdn.net/z960339491"
+        "title": "Java攻城狮有话说",
+        "subtitle": "JAVA技术分享、笔记，微信:ytu11364622，个人博客地址：https://yetongxue.github.io",
+        "link": "#"
+    },
+    {
+        "image": "../pic/banner1.png",
+        "align": "left",
+        "title": "Java攻城狮有话说",
+        "subtitle": "JAVA技术分享、笔记，微信:ytu11364622，个人博客地址：https://yetongxue.github.io",
+        "link": "#"
+    },
+    {
+        "image": "../pic/banner1.png",
+        "align": "left",
+        "title": "Java攻城狮有话说",
+        "subtitle": "JAVA技术分享、笔记，微信:ytu11364622，个人博客地址：https://yetongxue.github.io",
+        "link": "#"
     }
 ]

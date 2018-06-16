@@ -1,1 +1,1108 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="有些事可求，但不可强求"><title>叶统学の博客</title><link rel="stylesheet" type="text/css" href="/css/fonts_neworld_org.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.1"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">叶统学の博客</h1><a id="logo" href="/.">叶统学の博客</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/code/"><i class="fa fa-xie"> 代码</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/resume/"><i class="fa fa-fei"> 简介</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="Arama"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h2 class="post-title"><a href="/httpUtil/">HttpUtil工具类</a></h2><div class="post-meta"><p><span class="date">2017-01-08</span><span><a href="/categories/code/" class="category">code</a></span></p></div><div class="post-content"><p>HttpUtil工具类使用HttpClients</p></div><p class="readmore"><a href="/httpUtil/">阅读更多</a></p></div><div class="post"><h2 class="post-title"><a href="/jsonUtil/">JsonUtil工具类</a></h2><div class="post-meta"><p><span class="date">2017-01-07</span><span><a href="/categories/code/" class="category">code</a></span></p></div><div class="post-content"><p>基于jackson的json和object相互转换的工具类。</p></div><p class="readmore"><a href="/jsonUtil/">阅读更多</a></p></div><div class="post"><h2 class="post-title"><a href="/signUtil/">签名用的工具箱</a></h2><div class="post-meta"><p><span class="date">2017-01-07</span><span><a href="/categories/code/" class="category">code</a></span></p></div><div class="post-content"><p>签名算法工具，签名生成的步骤如下：<br> 第一步，设所有发送或者接收到的数据为集合M，将集合M内非空参数值的参数按照参数名ASCII码从小到大排序（字典序），使用URL键值对的格式（即key1=value1&amp;key2=value2…）拼接成字符串stringA。</p></div><p class="readmore"><a href="/signUtil/">阅读更多</a></p></div><div class="post"><h2 class="post-title"><a href="/FAQ/">常见异常</a></h2><div class="post-meta"><p><span class="date">2017-01-07</span><span><a href="/categories/备忘/" class="category">备忘</a></span></p></div><div class="post-content"><h2 id="1、spring-boot启动报异常"><a href="#1、spring-boot启动报异常" class="headerlink" title="1、spring boot启动报异常"></a>1、spring boot启动报异常</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Exception <span class="keyword">in</span> thread <span class="string">"main"</span> java<span class="selector-class">.lang</span><span class="selector-class">.UnsupportedClassVersionError</span>: </span><br><span class="line">org/springframework/boot/loader/JarLauncher : Unsupported major<span class="selector-class">.minor</span> version <span class="number">52.0</span></span><br></pre></td></tr></table></figure></div><p class="readmore"><a href="/FAQ/">阅读更多</a></p></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/httpUtil/">HttpUtil工具类</a></li><li class="post-list-item"><a class="post-list-link" href="/jsonUtil/">JsonUtil工具类</a></li><li class="post-list-item"><a class="post-list-link" href="/signUtil/">签名用的工具箱</a></li><li class="post-list-item"><a class="post-list-link" href="/FAQ/">常见异常</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-gui"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/code/">code</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/备忘/">备忘</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/HttpUtil/" style="font-size: 15px;">HttpUtil</a> <a href="/tags/工具类/" style="font-size: 15px;">工具类</a> <a href="/tags/签名/" style="font-size: 15px;">签名</a> <a href="/tags/常见异常/" style="font-size: 15px;">常见异常</a> <a href="/tags/jsonUtil/" style="font-size: 15px;">jsonUtil</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">一月 2017</a></li></ul></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">Baidu Site Haritası</a> |  <a href="/atom.xml">订阅</a> |  <a href="/about/">关于</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次</p><p><span> Copyright &copy;<a href="/." rel="nofollow">scott.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/yetongxue/blog_hexo"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.1"></script><script type="text/javascript" src="/js/totop.js?v=2.0.1" async></script></body></html>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    
+
+    <title>叶统学の博客</title>
+    <meta name="author" content="叶统学の博客">
+    
+    <meta name="description" content="一个苦逼的程序员,主攻JAVA,略懂前端,本博客做知识记录分享使用!">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+    <meta property="og:site_name" content="叶统学の博客"/>
+
+    
+    <meta property="og:image" content=""/>
+    
+
+    
+
+    
+    <meta name="baidu-site-verification" content="D7tG2r0DD4" />
+    
+
+    
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="alternate" href="/atom.xml" title="叶统学の博客" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/lib/materialize.min.css">
+    <link rel="stylesheet" href="/css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+
+    
+        <link rel="stylesheet" href="/css/lib/prettify-tomorrow-night-eighties.css" type="text/css">
+    
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+
+<body>
+    <img src="/weixin_favicon.png" style="position: absolute; left: -9999px; opacity: 0; filter: alpha(opacity=0);">
+
+    <nav class="indigo">
+    <div class="nav-wrapper">
+        <a href="#" data-activates="main-menu" class="button-collapse">
+            <i class="fa fa-navicon"></i>
+        </a>
+        <div class="">
+            <a href="/" class="brand-logo hide-on-med-and-down">叶统学の博客</a>
+            <ul class="right hide-on-med-and-down">
+                
+                    <li>
+                        <a class="menu-home " href="/" >
+                            <i class="fa fa-home "></i>
+                            
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-archive " href="/archives" >
+                            <i class="fa fa-archive "></i>
+                            
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-category category-menu" href="javascript:;" data-activates="category-menu" >
+                            <i class="fa fa-bookmark "></i>
+                            
+                            分类
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class=" " href="/tags" >
+                            <i class="fa fa-tags "></i>
+                            
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-about " href="/saidlist" >
+                            <i class="fa fa-book "></i>
+                            
+                            留言
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-about " href="/about" >
+                            <i class="fa fa-user "></i>
+                            
+                            关于
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-search modal-trigger " href="#search" >
+                            <i class="fa fa-search "></i>
+                            
+                            搜索
+                        </a>
+                    </li>
+                
+            </ul>
+            <div>
+    <ul class="side-nav indigo darken-1" id="main-menu">
+        
+        <li class="side-user">
+            <div class="row">
+                <div class="col s4 no-padding">
+                    <img class="avatar-image circle responsive-img" src="http://oh6t6o35a.bkt.clouddn.com/head.png" alt="User Avatar">
+                </div>
+                <div class="info col s8 valign-wrapper no-padding">
+                    <div class="valign">
+                        <p class="name">千寻啊千寻</p>
+                        <p class="desc">JAVA/架构/开发</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-home " href="/" >
+                    <i class="fa fa-home "></i>
+                    
+                    首页
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-archive " href="/archives" >
+                    <i class="fa fa-archive "></i>
+                    
+                    归档
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-category category-menu" href="javascript:;" data-activates="category-menu" >
+                    <i class="fa fa-bookmark "></i>
+                    
+                    分类
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect  " href="/tags" >
+                    <i class="fa fa-tags "></i>
+                    
+                    标签
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-about " href="/saidlist" >
+                    <i class="fa fa-book "></i>
+                    
+                    留言
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-about " href="/about" >
+                    <i class="fa fa-user "></i>
+                    
+                    关于
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-search modal-trigger " href="#search" >
+                    <i class="fa fa-search "></i>
+                    
+                    搜索
+                </a>
+            </li>
+        
+    </ul>
+
+    <ul class="side-nav indigo darken-1" id="category-menu">
+    
+
+            
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/缓存技术/">
+                    缓存技术 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/Linux/">
+                    Linux <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/视频/">
+                    视频 <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/异常记录/">
+                    异常记录 <span class="right">3 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/技术杂文/">
+                    技术杂文 <span class="right">3 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/其他/">
+                    其他 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/Java/">
+                    Java <span class="right">5 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/Java/SpringBoot/">
+                    SpringBoot <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/Java/Maven/">
+                    Maven <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/Java/SpringCloud/">
+                    SpringCloud <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+    </ul>
+</div>
+
+        </div>
+    </div>
+</nav>
+
+<div id="search" class="modal search-modal">
+    <div class="row">
+        <div class="input-field col s12">
+              <input id="search-input" type="text">
+              <label for="search-input">搜索</label>
+        </div>
+
+    </div>
+    <div id="search-result" class="search-result col s12">
+
+    </div>
+</div>
+
+
+    <main>
+        
+
+<div class="slider">
+    <ul class="slides">
+    
+       <li>
+           <a href="https://blog.csdn.net/z960339491">
+               <img class="slider-image" src="http://wailian.work/images/2018/05/22/banner1.jpg">
+               <div class="caption left-align">
+                 <h4>博客搬家!</h3>
+                 <h5 class="light grey-text text-lighten-3">因为ghost博客太蛋疼了，换hexo博客使用，部分文章没有同步过来，可以访问：https://blog.csdn.net/z960339491</h5>
+               </div>
+           </a>
+       </li>
+    
+   </ul>
+ </div>
+
+
+
+<div id="article-list" class="container main-container">
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/tech/apollo-pei-zhi-zhong-xin-an-zhuang-bu-shu/">Apollo分布式配置中心部署以及使用</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-06-12T03:18:00.000Z"><a href="/tech/apollo-pei-zhi-zhong-xin-an-zhuang-bu-shu/">2018-06-12</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/SpringBoot/" class="chip pink lighten-1">SpringBoot</a>
+        
+            <a href="/tags/Java/" class="chip pink lighten-1">Java</a>
+        
+            <a href="/tags/分布式/" class="chip pink lighten-1">分布式</a>
+        
+            <a href="/tags/Spring-Cloud/" class="chip pink lighten-1">Spring Cloud</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <h1 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h1><blockquote>
+<p>Apollo（阿波罗）是携程框架部门研发的分布式配置中心，能够集中化管理应用不同环境、不同集群的配置，配置修改后能够实时推送到应用端，并且具备规范的权限、流程治理等特性，适用于微服务配置管理场景。</p>
+</blockquote>
+<p>官方github：<a href="https://github.com/ctripcorp/apollo">https://github.com/ctripcorp/apollo</a>  </p>
+<p>作者对Apollo对介绍：<a href="https://github.com/ctripcorp/apollo/wiki/Apollo%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E4%BB%8B%E7%BB%8D">https://github.com/ctripcorp/apollo/wiki/Apollo%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E4%BB%8B%E7%BB%8D</a>  </p>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/tech/apollo-pei-zhi-zhong-xin-an-zhuang-bu-shu/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/java/spring-cloud/spring-cloud-config-fen-bu-shi-pei-zhi-zhong-xin/">Spring Cloud Config分布式配置中心的使用和遇到的坑</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-06-06T02:09:55.000Z"><a href="/java/spring-cloud/spring-cloud-config-fen-bu-shi-pei-zhi-zhong-xin/">2018-06-06</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/Java/" class="chip pink lighten-1">Java</a>
+        
+            <a href="/tags/分布式/" class="chip pink lighten-1">分布式</a>
+        
+            <a href="/tags/SpringCloud/" class="chip pink lighten-1">SpringCloud</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <h1 id="分布式配置中心"><a href="#分布式配置中心" class="headerlink" title="分布式配置中心"></a>分布式配置中心</h1><p>为什么要有用分布式配置中心这玩意儿？现在这微服务大军已经覆盖了各种大小型企业，每个服务的粒度相对较小，因此系统中会出现大量的服务，每个服务都要有自己都一些配置信息，或者相同的配置信息，可能不同环境每个服务也有单独的一套配置，这种情况配置文件数量比较庞大，维护起来相当费劲，举个栗子：<br>在开发的过程中，一般数据库是开发环境数据库，所有服务DB的IP配置为：92.168.0.1，突然老大说，开发环境换了，DB的IP要修改，这下可不好受了，所有模块挨个修改DB的配置，就问你难受不难受？<br>这个时候分布式配置中心就发挥了很大的优势，只需要修改配置中心配置，所有服务即可自动生效，爽不爽！  </p>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/java/spring-cloud/spring-cloud-config-fen-bu-shi-pei-zhi-zhong-xin/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/exception/redis-qi-dong-bao-cuo-cluster-support-disabled/">SpringBoot的redis启动报错：ERR This instance has cluster support disabled</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-05-28T06:27:23.000Z"><a href="/exception/redis-qi-dong-bao-cuo-cluster-support-disabled/">2018-05-28</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/Redis/" class="chip pink lighten-1">Redis</a>
+        
+            <a href="/tags/Exception/" class="chip pink lighten-1">Exception</a>
+        
+            <a href="/tags/SpringBoot/" class="chip pink lighten-1">SpringBoot</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <h1 id="异常描述"><a href="#异常描述" class="headerlink" title="异常描述"></a>异常描述</h1><p>新建了一个项目，我自己的服务器安装了一个redis，安装的时候，基本上都是默认参数，然后SpringBoot配置如下：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">spring:</span></span><br><span class="line"><span class="attr">  redis:</span></span><br><span class="line"><span class="attr">    cluster:</span></span><br><span class="line"><span class="attr">      nodes:</span> <span class="string">qianxunclub.com:6666</span></span><br></pre></td></tr></table></figure>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/exception/redis-qi-dong-bao-cuo-cluster-support-disabled/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/java/spring-boot/zi-ding-yi-springboot-starter-parent-tongyi-kaifa-guifan-tigao-kaifa-xiaolv/">自定义SpringBoot的starter-parent，制定开发规范，和提高开发效率</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-05-25T02:40:00.000Z"><a href="/java/spring-boot/zi-ding-yi-springboot-starter-parent-tongyi-kaifa-guifan-tigao-kaifa-xiaolv/">2018-05-25</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/SpringBoot/" class="chip pink lighten-1">SpringBoot</a>
+        
+            <a href="/tags/Java/" class="chip pink lighten-1">Java</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>SpringBoot咱们开发一般<code>pom.xml</code>是都集成<code>spring-boot-starter-parent</code>的，这里为什么要自定义一个starter-parent呢，主要以下几个理由：  </p>
+<ol>
+<li>定义开发规范：自定义parent可以制定统一配置和依赖规范  </li>
+<li>提高开发效率 </li>
+<li>统一模块插件化管理：可以在parent实现需要的插件配置，如：redis、mysql、日志、参数教研等  </li>
+<li>项目版本升级和依赖包升级更加方便统一  </li>
+<li>日志收集等可以从切面获取各个项目数据和日志等</li>
+<li>项目持续集成部署交付方便处理  </li>
+</ol>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/java/spring-boot/zi-ding-yi-springboot-starter-parent-tongyi-kaifa-guifan-tigao-kaifa-xiaolv/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/exception/spring-boot-tomcat-qi-dong-shi-bai/">SpringBoot启动Tomcat失败：Unable to start embedded Tomcat</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-05-22T02:40:00.000Z"><a href="/exception/spring-boot-tomcat-qi-dong-shi-bai/">2018-05-22</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/Exception/" class="chip pink lighten-1">Exception</a>
+        
+            <a href="/tags/SpringBoot/" class="chip pink lighten-1">SpringBoot</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <h1 id="异常描述"><a href="#异常描述" class="headerlink" title="异常描述"></a>异常描述</h1><blockquote>
+<p>之前项目是dubbo的，分为两个服务，service数据层和web请求控制，使用dubbo互相调用的，现在要把dubbo去掉，使用SpringCloud的eureka了，要把两个合并成一个项目，这里并不是要把所有代码复制过去，而是把service使用maven引用到web项目里面，然后修改对应的配置和包路劲，启动的时候，竟然报错了，编译是没有任何问题的。</p>
+</blockquote>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/exception/spring-boot-tomcat-qi-dong-shi-bai/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/java/maven/ru-he-shang-chuan-zi-ji-de-jarbao-dao-mavengong-gong-yuan-cheng-zhong-yang-cang-ku/">如何上传自己的jar包到maven公共远程中央仓库</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-05-15T18:48:41.000Z"><a href="/java/maven/ru-he-shang-chuan-zi-ji-de-jarbao-dao-mavengong-gong-yuan-cheng-zhong-yang-cang-ku/">2018-05-16</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/Java/" class="chip pink lighten-1">Java</a>
+        
+            <a href="/tags/Maven/" class="chip pink lighten-1">Maven</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <p>本文是以上传<code>https://oss.sonatype.org/</code>maven中央仓库为例</p>
+<h1 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h1><p>如果有账号可忽略该步骤，注册地址：<code>https://issues.sonatype.org</code>，这里的账号和密码一定要记住。</p>
+<h1 id="创建工单"><a href="#创建工单" class="headerlink" title="创建工单"></a>创建工单</h1><p><strong>在首页最上面导航中点击<code>Create</code>创建工单：</strong><br>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/java/maven/ru-he-shang-chuan-zi-ji-de-jarbao-dao-mavengong-gong-yuan-cheng-zhong-yang-cang-ku/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/java/maven/apidocde-mavencha-jian-zi-dong-sheng-cheng-apidoc-json/">apidoc的maven插件，自动生成apidoc.json</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-05-15T18:41:37.000Z"><a href="/java/maven/apidocde-mavencha-jian-zi-dong-sheng-cheng-apidoc-json/">2018-05-16</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/Java/" class="chip pink lighten-1">Java</a>
+        
+            <a href="/tags/Maven/" class="chip pink lighten-1">Maven</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <p>插件是用apidoc插件生成文档的，具体使用方式可查看官网：<a href="http://apidocjs.com/" target="_blank" rel="noopener">http://apidocjs.com/</a><br>该插件不会直接生成APIDOC文档，只会自动生成apidoc.json文件，需要执行<code>apidoc</code>命令才可以生成<br>apidoc.json文件会生成在项目根目录apidoc文件夹下<br>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/java/maven/apidocde-mavencha-jian-zi-dong-sheng-cheng-apidoc-json/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/video/zhe-ge-shi-jie-zong-you-ren-tou-tou-ai-zhao-ni/">这个世界，总有人偷偷爱着你</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-05-07T17:44:27.000Z"><a href="/video/zhe-ge-shi-jie-zong-you-ren-tou-tou-ai-zhao-ni/">2018-05-08</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/视频/" class="chip pink lighten-1">视频</a>
+        
+            <a href="/tags/公益广告/" class="chip pink lighten-1">公益广告</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <p>这是999感冒灵推出的感恩节短片视频<br>广告片选取真人事件改编<br>以一段网络问答为线<br>串联5个反转故事  </p>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/video/zhe-ge-shi-jie-zong-you-ren-tou-tou-ai-zhao-ni/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/tech/httqing-qiu-fan-hui-bian-ma-da-quan-yi-ji-jie-shi-fen-lei/">HTTP请求返回编码大全以及解释分类</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-05-06T18:08:46.000Z"><a href="/tech/httqing-qiu-fan-hui-bian-ma-da-quan-yi-ji-jie-shi-fen-lei/">2018-05-07</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/Http/" class="chip pink lighten-1">Http</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <blockquote>
+<p>原文地址：<a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" target="_blank" rel="noopener">https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html</a></p>
+</blockquote>
+<h1 id="Status-Code-Definitions"><a href="#Status-Code-Definitions" class="headerlink" title="Status Code Definitions"></a>Status Code Definitions</h1><p>Each Status-Code is described below, including a description of which method(s) it can follow and any metainformation required in the response.<br>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/tech/httqing-qiu-fan-hui-bian-ma-da-quan-yi-ji-jie-shi-fen-lei/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+        <article class="simple-article">
+    <div class="card">
+        <div class="card-content">
+            <div class="article-title">
+                
+    
+        <h1 class="indigo-link-context"><a href="/java/spring-boot/springbootshi-yong-hibernate-validatorli-yong-aop/">SpringBoot使用hibernate-validator利用AOP实现统一参数校验</a></h1>
+    
+
+
+            </div>
+
+            <time class="pink-link-context" datetime="2018-04-25T18:22:12.000Z"><a href="/java/spring-boot/springbootshi-yong-hibernate-validatorli-yong-aop/">2018-04-26</a></time>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/SpringBoot/" class="chip pink lighten-1">SpringBoot</a>
+        
+            <a href="/tags/Java/" class="chip pink lighten-1">Java</a>
+        
+    </div>
+
+
+
+            
+                <div class="entry pink-link-context">
+                    <h1 id="引入maven包"><a href="#引入maven包" class="headerlink" title="引入maven包"></a>引入maven包</h1><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-web<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.5.9.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-aop<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.0.1.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.glassfish<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>javax.el<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>3.0.1-b08<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+                </div>
+            
+        </div>
+
+        
+        <div class="card-action pink-link-context">
+            <a href="/java/spring-boot/springbootshi-yong-hibernate-validatorli-yong-aop/">阅读全文</a>
+        </ div>
+        
+    </div>
+</article>
+
+    
+
+    <ul class="pagination center-align">
+    <li class="disabled">
+        <a href="/"><i class="fa fa-angle-left"></i></a>
+    </li>
+    
+    
+        <li class="active pink"><a href="/">1</a></li>
+    
+        <li class="waves-effect"><a href="/page/2">2</a></li>
+    
+    
+    <li class="">
+        <a href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    </li>
+ </ul>
+
+</div>
+
+        <div class="fixed-action-btn float-sitemap">
+    <a class="btn-floating btn-large pink">
+      <i class="fa fa-caret-square-o-up"></i>
+    </a>
+    <ul>
+      <li><a class="btn-return-top btn-floating waves-effect green" title="回到顶部"><i class="fa fa-arrow-circle-o-up"></i></a></li>
+      <li><a class="btn-floating waves-effect button-collapse yellow darken-1"  data-activates="main-menu" title="菜单"><i class="fa fa-navicon"></i></a></li>
+    </ul>
+  </div>
+
+    </main>
+    <footer class="page-footer indigo darken-1">
+    
+    <div class="footer-container container">
+        <div class="row">
+            
+            <div class="social-group col m4 s12">
+                <h5 class="white-text">社交</h5>
+                
+                    <a class="social-link" href="tencent://message/?uin=960339491&amp;Site=&amp;Menu=yes" target="_blank">
+                        <i class="fa fa-2x fa-qq"></i>
+                    </a>
+                
+                    <a class="social-link" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=nqeorq2tp6qnr97v77D98fM" target="_blank">
+                        <i class="fa fa-2x fa-send"></i>
+                    </a>
+                
+                    <a class="social-link" href="https://gitee.com/qianxunclub" target="_blank">
+                        <i class="fa fa-2x fa-gg"></i>
+                    </a>
+                
+                    <a class="social-link" href="/atom.xml" target="_blank">
+                        <i class="fa fa-2x fa-rss"></i>
+                    </a>
+                
+                
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+    </script>
+    <div class="site-visitors-container white-text">
+        <span>
+            <i class="fa fa-user"></i>
+            <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+        </span>
+        <span>&nbsp;|&nbsp;</span>
+        <span>
+            <i class="fa fa-eye"></i>
+            <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+        </span>
+    </div>
+
+
+            </div>
+            
+
+            
+            <div class="col m8 s12">
+                <h5 class="white-text">友情链接</h5>
+                
+                    <a class="social-link" href="https://gitee.com/qianxunclub" target="_blank">我的码云</a>
+                
+                    <a class="social-link" href="http://qianxunclub.com/" target="_blank">千寻啊千寻</a>
+                
+                    <a class="social-link" href="http://cuiqingcai.com/" target="_blank">静觅</a>
+                
+                    <a class="social-link" href="https://luna.fancylog.net/" target="_blank">Ｌunａ</a>
+                
+                    <a class="social-link" href="https://www.iots.vip/" target="_blank">Alliot&#39;s blog</a>
+                
+                    <a class="social-link" href="https://lilyssh.github.io/" target="_blank">lilyssh</a>
+                
+                    <a class="social-link" href="https://blog.mythsman.com/" target="_blank">Myths</a>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <div class="footer-copyright pink-link-context">
+        <div class="container">
+            粤ICP备16022296号 © 2015-2018 qianxunclub.com, All rights reserved.
+            <!-- <p class="right" style="margin-top: 0;">本博客由 <a href="https://hexo.io">Hexo</a> 强力驱动 | 主题 <a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism">raytaylorism</a></p> -->
+            <p class="right" style="margin-top: 0;"></p>
+        </div>
+    </div>
+</footer>
+
+
+    <noscript>
+    <div class="noscript">
+        <p class="center-align">当前网速较慢或者你使用的浏览器不支持博客特定功能，请尝试刷新或换用Chrome、Firefox等现代浏览器</p>
+    </div>
+</noscript>
+<div class="noscript">
+    <p class="center-align">当前网速较慢或者你使用的浏览器不支持博客特定功能，请尝试刷新或换用Chrome、Firefox等现代浏览器</p>
+</div>
+
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/materialize.min.js"></script>
+
+<script>
+    (function($) {
+        $(document).ready(function() {
+            // 隐藏禁用javascript（针对微信内置浏览器）的提示
+            $('.noscript').hide();
+
+            // 图片缩放效果
+            var $imgs = $('img').not('.slider-image').not('.avatar-image').not('.carousel-image').not('.card-cover-image').not('.qrcode');
+
+            // 给图片加上点击放大效果（materialbox插件）
+            $imgs.addClass('materialboxed').each(function(i, el) {
+                $(this).attr('data-caption', $(this).attr('alt') || ' ');
+            }).materialbox();
+
+            // 优化表格的显示
+            $('table').each(function() {
+                var $table = $(this);
+                // 除去多行代码的情况
+                if ($table.find('pre').length == 0) {
+                    $table.addClass('responsive-table striped bordered');
+                }
+            });
+
+            // 首页幻灯片
+            $('.slider').slider({indicators: true, full_width: true, interval: 8000});
+
+            $(".button-collapse").sideNav();
+            $(".category-menu").sideNav();
+
+            // 针对gallery post
+            $('.carousel').carousel({full_width: true});
+            $('.carousel-control.prev').click(function() {
+                $('.carousel').carousel('prev');
+            });
+            $('.carousel-control.next').click(function() {
+                $('.carousel').carousel('next');
+            });
+
+            // 文章目录
+            $('article').not('.simple-article').find('h1').add('h2').add('h3').add('h4').add('h5').add('h6').scrollSpy();
+
+            // 目录随屏幕滚动（防止目录过长越过footer）
+            var $toc = $('.toc');
+            var scrollTargetTop = 0;
+            $(window).scroll(function() {
+                var $activeLink = $toc.find('a.active.section');
+                if ($(window).scrollTop() < 100) {
+                    scrollTargetTop = 0;
+                } else {
+                    if ($activeLink[0]) {
+                        scrollTargetTop = $activeLink.offset().top - $toc.offset().top;
+                    }
+                }
+                $toc.css('top', '-' + scrollTargetTop + 'px');
+            });
+
+            // 修正文章目录的left-border颜色
+            var color = $('.table-of-contents-text').css('color');
+            $('.table-of-contents-link').css('border-left-color', color);
+
+            // 针对移动端做的优化：FAB按钮点击一下收回
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                $('.fixed-action-btn').addClass('click-to-toggle');
+            }
+            // 回到顶部
+            $('.btn-return-top').click(function() {
+                $('body, html').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+
+            // 重置读书页面的Tab标签页的颜色
+            $('li.tab a').hover(function() {
+                $(this).toggleClass('text-lighten-4');
+            });
+            $('.indicator').addClass('pink lighten-2');
+
+            
+            // 添加new标签
+            $('.menu-search').append('<span class="new badge pink"></span>');
+            
+
+            // 搜索功能
+            $('.modal-trigger').leanModal({
+                // 打开搜索框时自动聚焦
+                ready: function() {
+                    if ($('#search').is(":visible")) {
+                        $('#search-input').focus();
+                    }
+                }
+            });
+            var searchXml = "search.xml";
+            if (searchXml.length == 0) {
+             	searchXml = "search.xml";
+            }
+            var searchPath = "/" + searchXml;
+            initSearch(searchPath, 'search-input', 'search-result');
+        });
+
+        // 初始化搜索与匹配函数
+        var initSearch = function(path, search_id, content_id) {
+            'use strict';
+            $.ajax({
+                url: path,
+                dataType: "xml",
+                success: function(xmlResponse) {
+                    // get the contents from search data
+                    var datas = $("entry", xmlResponse).map(function() {
+                        return {
+                            title: $("title", this).text(),
+                            content: $("content", this).text(),
+                            url: $("url", this).text()
+                        };
+                    }).get();
+                    var $input = document.getElementById(search_id);
+                    var $resultContent = document.getElementById(content_id);
+                    $input.addEventListener('input', function() {
+                        var str = '<ul class=\"search-result-list\">';
+                        var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                        $resultContent.innerHTML = "";
+                        if (this.value.trim().length <= 0) {
+                            return;
+                        }
+                        // perform local searching
+                        datas.forEach(function(data) {
+                            var isMatch = true;
+                            var content_index = [];
+                            var data_title = data.title.trim().toLowerCase();
+                            var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                            var data_url = data.url;
+                            var index_title = -1;
+                            var index_content = -1;
+                            var first_occur = -1;
+                            // only match artiles with not empty titles and contents
+                            if (data_title != '' && data_content != '') {
+                                keywords.forEach(function(keyword, i) {
+                                    index_title = data_title.indexOf(keyword);
+                                    index_content = data_content.indexOf(keyword);
+                                    if (index_title < 0 && index_content < 0) {
+                                        isMatch = false;
+                                    } else {
+                                        if (index_content < 0) {
+                                            index_content = 0;
+                                        }
+                                        if (i == 0) {
+                                            first_occur = index_content;
+                                        }
+                                    }
+                                });
+                            }
+                            // show search results
+                            if (isMatch) {
+                                keywords.forEach(function(keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    data_title = data_title.replace(regS, "<span class=\"search-keyword pink lighten-2\">" + keyword + "</span>");
+                                });
+
+                                str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                                var content = data.content.trim().replace(/<[^>]+>/g, "");
+                                if (first_occur >= 0) {
+                                    // cut out 100 characters
+                                    var start = first_occur - 20;
+                                    var end = first_occur + 80;
+                                    if (start < 0) {
+                                        start = 0;
+                                    }
+                                    if (start == 0) {
+                                        end = 100;
+                                    }
+                                    if (end > content.length) {
+                                        end = content.length;
+                                    }
+                                    var match_content = content.substring(start, end);
+                                    // highlight all keywords
+                                    keywords.forEach(function(keyword) {
+                                        var regS = new RegExp(keyword, "gi");
+                                        match_content = match_content.replace(regS, "<span class=\"search-keyword pink lighten-2\">" + keyword + "</span>");
+                                    });
+
+                                    str += "<p class=\"search-result\">..." + match_content + "...</p>"
+                                }
+                                str += "</li>";
+                            }
+                        });
+                        str += "</ul>";
+                        $resultContent.innerHTML = str;
+                    });
+                }
+            });
+        }
+    })(jQuery);
+</script>
+
+
+<script src="/js/prettify.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("pre").addClass("prettyprint");
+        prettyPrint();
+    });
+</script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async
+  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+</body>
+</html>

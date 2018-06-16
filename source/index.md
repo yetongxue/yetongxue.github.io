@@ -1,1 +1,0 @@
-ayout：page。 Create folders inlcudingindex.mdinsourcefolder to add pages, and add alayout: pageinfront-matterofindex.md`.
