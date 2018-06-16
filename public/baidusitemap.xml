@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/FAQ/</loc>
     <lastmod>2018-06-16T01:17:33.218Z</lastmod>
@@ -53,9 +54,9 @@
         <title>JsonUtil工具类</title>
         <pubTime>2017-02-07T15:55:44.000Z</pubTime>
         
-        <tag>工具类</tag>
-         
         <tag>jsonUtil</tag>
+         
+        <tag>工具类</tag>
          
          
            
@@ -164,9 +165,9 @@
         <title>SpringBoot的redis启动报错：ERR This instance has cluster support disabled</title>
         <pubTime>2017-11-28T06:27:23.000Z</pubTime>
         
-        <tag>Redis</tag>
-         
         <tag>Exception</tag>
+         
+        <tag>Redis</tag>
          
         <tag>SpringBoot</tag>
          
@@ -214,9 +215,9 @@
         <title>HttpUtil工具类</title>
         <pubTime>2017-01-07T16:55:44.000Z</pubTime>
         
-        <tag>HttpUtil</tag>
-         
         <tag>工具类</tag>
+         
+        <tag>HttpUtil</tag>
          
          
            
@@ -228,7 +229,6 @@
     </url>
 
     
-    
   <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/my-father-is-liar/</loc>
     <lastmod>2018-06-15T08:50:06.000Z</lastmod>
@@ -236,48 +236,6 @@
         <display>
         <title>《我的爸爸是个骗子》风靡全球</title>
         <pubTime>2016-11-27T16:00:00.000Z</pubTime>
-        
-        <tag>视频</tag>
-         
-        <tag>公益广告</tag>
-         
-         
-           
-             
-              <breadCrumb title="视频" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E8%A7%86%E9%A2%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/linux/zi-dong-hua-gong-ju-ansiblewan-zheng-an-zhuang-pi-liang-de-zai-yuan-cheng-fu-wu-qi-shang-zhi-xing-ming-ling/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>自动化工具 ansible完整安装</title>
-        <pubTime>2016-11-15T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/zhe-ge-shi-jie-zong-you-ren-tou-tou-ai-zhao-ni/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>这个世界，总有人偷偷爱着你</title>
-        <pubTime>2018-05-07T17:44:27.000Z</pubTime>
         
         <tag>视频</tag>
          
@@ -309,6 +267,75 @@
            
              
               <breadCrumb title="其他" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/kafka-exception-could-not-be-resolved/</loc>
+    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>kafka发送消息问题，could not be resolved</title>
+        <pubTime>2017-04-18T03:27:23.000Z</pubTime>
+        
+        <tag>Exception</tag>
+         
+        <tag>Kafka</tag>
+         
+         
+           
+             
+              <breadCrumb title="异常记录" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/zhe-ge-shi-jie-zong-you-ren-tou-tou-ai-zhao-ni/</loc>
+    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>这个世界，总有人偷偷爱着你</title>
+        <pubTime>2018-05-07T17:44:27.000Z</pubTime>
+        
+        <tag>视频</tag>
+         
+        <tag>公益广告</tag>
+         
+         
+           
+             
+              <breadCrumb title="视频" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E8%A7%86%E9%A2%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-boot/zi-ding-yi-springboot-starter-parent-tongyi-kaifa-guifan-tigao-kaifa-xiaolv/</loc>
+    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>自定义SpringBoot的starter-parent，制定开发规范，和提高开发效率</title>
+        <pubTime>2018-05-25T02:40:00.000Z</pubTime>
+        
+        <tag>SpringBoot</tag>
+         
+        <tag>Java</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
+          
+             
+              <breadCrumb title="SpringBoot" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/SpringBoot/"/>
           
         </display>
     </data>
@@ -373,9 +400,9 @@
         <title>缓存穿透，缓存击穿，缓存雪崩解决方案分析</title>
         <pubTime>2017-04-18T03:27:23.000Z</pubTime>
         
-        <tag>缓存</tag>
-         
         <tag>Redis</tag>
+         
+        <tag>缓存</tag>
          
          
            
@@ -415,46 +442,19 @@
 
     
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-boot/zi-ding-yi-springboot-starter-parent-tongyi-kaifa-guifan-tigao-kaifa-xiaolv/</loc>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/linux/zi-dong-hua-gong-ju-ansiblewan-zheng-an-zhuang-pi-liang-de-zai-yuan-cheng-fu-wu-qi-shang-zhi-xing-ming-ling/</loc>
     <lastmod>2018-06-15T08:50:06.000Z</lastmod>
     <data>
         <display>
-        <title>自定义SpringBoot的starter-parent，制定开发规范，和提高开发效率</title>
-        <pubTime>2018-05-25T02:40:00.000Z</pubTime>
+        <title>自动化工具 ansible完整安装</title>
+        <pubTime>2016-11-15T16:00:00.000Z</pubTime>
         
-        <tag>SpringBoot</tag>
-         
-        <tag>Java</tag>
+        <tag>Linux</tag>
          
          
            
              
-              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
-          
-             
-              <breadCrumb title="SpringBoot" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/SpringBoot/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/kafka-exception-could-not-be-resolved/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>kafka发送消息问题，could not be resolved</title>
-        <pubTime>2017-04-18T03:27:23.000Z</pubTime>
-        
-        <tag>Exception</tag>
-         
-        <tag>Kafka</tag>
-         
-         
-           
-             
-              <breadCrumb title="异常记录" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+              <breadCrumb title="Linux" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Linux/"/>
           
         </display>
     </data>
