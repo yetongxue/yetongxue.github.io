@@ -1,6 +1,6 @@
 ---
 title: JsonUtil工具类
-date: 2017-01-07 23:55:44
+date: 2017-02-07 23:55:44
 updated: 
 categories: 
   - code工具
@@ -8,7 +8,7 @@ permalink:
 tags: [jsonUtil,工具类]
 ---
 基于jackson的json和object相互转换的工具类。
-
+<!-- more -->
 ```
 import java.io.IOException;
 import java.text.SimpleDateFormat;

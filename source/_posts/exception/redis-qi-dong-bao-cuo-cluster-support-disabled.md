@@ -1,6 +1,6 @@
 ---
 title: SpringBoot的redis启动报错：ERR This instance has cluster support disabled
-date: 2018-05-28 14:27:23
+date: 2017-11-28 14:27:23
 tags: [Exception,Redis,SpringBoot]
 categories: 
   - 异常记录

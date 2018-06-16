@@ -14,6 +14,7 @@ Exception in thread "main" java.lang.UnsupportedClassVersionError:
 org/springframework/boot/loader/JarLauncher : Unsupported major.minor version 52.0
 ```
 解决办法：
+<!-- more -->
 1. 换成jdk1.8<br>
 2. pom.xml添加:<br>
 ```
