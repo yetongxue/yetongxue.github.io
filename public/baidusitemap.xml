@@ -4,29 +4,11 @@
 
     
     
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/FAQ/</loc>
-    <lastmod>2018-06-16T01:17:33.218Z</lastmod>
-    <data>
-        <display>
-        <title>常见异常</title>
-        <pubTime>2017-01-07T14:55:44.000Z</pubTime>
-        
-        <tag>常见异常</tag>
-         
-         
-           
-             
-              <breadCrumb title="异常记录" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
-          
-        </display>
-    </data>
-    </url>
-
+    
     
   <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/utils/signUtil/</loc>
-    <lastmod>2018-06-16T01:17:17.183Z</lastmod>
+    <lastmod>2018-06-22T09:29:04.689Z</lastmod>
     <data>
         <display>
         <title>签名用的工具箱</title>
@@ -47,8 +29,74 @@
 
     
   <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/zhe-ge-shi-jie-zong-you-ren-tou-tou-ai-zhao-ni/</loc>
+    <lastmod>2018-06-22T09:29:04.689Z</lastmod>
+    <data>
+        <display>
+        <title>这个世界，总有人偷偷爱着你</title>
+        <pubTime>2018-05-07T17:44:27.000Z</pubTime>
+        
+        <tag>视频</tag>
+         
+        <tag>公益广告</tag>
+         
+         
+           
+             
+              <breadCrumb title="视频" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E8%A7%86%E9%A2%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/my-father-is-liar/</loc>
+    <lastmod>2018-06-22T09:29:04.689Z</lastmod>
+    <data>
+        <display>
+        <title>《我的爸爸是个骗子》风靡全球</title>
+        <pubTime>2016-11-27T16:00:00.000Z</pubTime>
+        
+        <tag>视频</tag>
+         
+        <tag>公益广告</tag>
+         
+         
+           
+             
+              <breadCrumb title="视频" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E8%A7%86%E9%A2%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/utils/httpUtil/</loc>
+    <lastmod>2018-06-22T09:29:04.688Z</lastmod>
+    <data>
+        <display>
+        <title>HttpUtil工具类</title>
+        <pubTime>2017-01-07T16:55:44.000Z</pubTime>
+        
+        <tag>HttpUtil</tag>
+         
+        <tag>工具类</tag>
+         
+         
+           
+             
+              <breadCrumb title="code工具" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/code%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/utils/jsonUtil/</loc>
-    <lastmod>2018-06-16T01:17:01.839Z</lastmod>
+    <lastmod>2018-06-22T09:29:04.688Z</lastmod>
     <data>
         <display>
         <title>JsonUtil工具类</title>
@@ -70,7 +118,7 @@
     
   <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/tech/xing-yun-da-zhuan-pan-chou-jiang-cheng-xu-shi-xian-luo-ji/</loc>
-    <lastmod>2018-06-16T01:16:26.240Z</lastmod>
+    <lastmod>2018-06-22T09:29:04.687Z</lastmod>
     <data>
         <display>
         <title>幸运大转盘抽奖 抽奖算法 程序实现逻辑</title>
@@ -91,8 +139,34 @@
 
     
   <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/tech/apollo-pei-zhi-zhong-xin-an-zhuang-bu-shu/</loc>
+    <lastmod>2018-06-22T09:29:04.683Z</lastmod>
+    <data>
+        <display>
+        <title>Apollo分布式配置中心部署以及使用</title>
+        <pubTime>2018-06-12T03:18:00.000Z</pubTime>
+        
+        <tag>SpringBoot</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>Spring Cloud</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术杂文" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/tech/httqing-qiu-fan-hui-bian-ma-da-quan-yi-ji-jie-shi-fen-lei/</loc>
-    <lastmod>2018-06-16T01:16:14.858Z</lastmod>
+    <lastmod>2018-06-22T09:29:04.683Z</lastmod>
     <data>
         <display>
         <title>HTTP请求返回编码大全以及解释分类</title>
@@ -111,127 +185,8 @@
 
     
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/maven/ru-he-shang-chuan-zi-ji-de-jarbao-dao-mavengong-gong-yuan-cheng-zhong-yang-cang-ku/</loc>
-    <lastmod>2018-06-16T01:15:34.253Z</lastmod>
-    <data>
-        <display>
-        <title>如何上传自己的jar包到maven公共远程中央仓库</title>
-        <pubTime>2018-03-16T06:48:41.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>Maven</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
-          
-             
-              <breadCrumb title="Maven" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/Maven/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/spring-boot-tomcat-qi-dong-shi-bai/</loc>
-    <lastmod>2018-06-16T01:14:59.824Z</lastmod>
-    <data>
-        <display>
-        <title>SpringBoot启动Tomcat失败：Unable to start embedded Tomcat</title>
-        <pubTime>2017-12-12T11:40:00.000Z</pubTime>
-        
-        <tag>SpringBoot</tag>
-         
-        <tag>Exception</tag>
-         
-         
-           
-             
-              <breadCrumb title="异常记录" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/redis-qi-dong-bao-cuo-cluster-support-disabled/</loc>
-    <lastmod>2018-06-16T01:14:21.020Z</lastmod>
-    <data>
-        <display>
-        <title>SpringBoot的redis启动报错：ERR This instance has cluster support disabled</title>
-        <pubTime>2017-11-28T06:27:23.000Z</pubTime>
-        
-        <tag>Redis</tag>
-         
-        <tag>SpringBoot</tag>
-         
-        <tag>Exception</tag>
-         
-         
-           
-             
-              <breadCrumb title="异常记录" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/tech/apollo-pei-zhi-zhong-xin-an-zhuang-bu-shu/</loc>
-    <lastmod>2018-06-16T01:12:58.204Z</lastmod>
-    <data>
-        <display>
-        <title>Apollo分布式配置中心部署以及使用</title>
-        <pubTime>2018-06-12T03:18:00.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SpringBoot</tag>
-         
-        <tag>Spring Cloud</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术杂文" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/utils/httpUtil/</loc>
-    <lastmod>2018-06-16T01:11:21.721Z</lastmod>
-    <data>
-        <display>
-        <title>HttpUtil工具类</title>
-        <pubTime>2017-01-07T16:55:44.000Z</pubTime>
-        
-        <tag>HttpUtil</tag>
-         
-        <tag>工具类</tag>
-         
-         
-           
-             
-              <breadCrumb title="code工具" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/code%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/other/ni-ma-a-keng-die-de-peng-you-quan-qing-fang-guo-wo-ba-wo-ma-ba/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
+    <lastmod>2018-06-22T09:29:04.681Z</lastmod>
     <data>
         <display>
         <title>尼玛啊！坑爹的朋友圈！请放过我爸我妈吧！</title>
@@ -253,7 +208,7 @@
     
   <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/linux/zi-dong-hua-gong-ju-ansiblewan-zheng-an-zhuang-pi-liang-de-zai-yuan-cheng-fu-wu-qi-shang-zhi-xing-ming-ling/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
+    <lastmod>2018-06-22T09:29:04.680Z</lastmod>
     <data>
         <display>
         <title>自动化工具 ansible完整安装</title>
@@ -272,149 +227,8 @@
 
     
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/my-father-is-liar/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>《我的爸爸是个骗子》风靡全球</title>
-        <pubTime>2016-11-27T16:00:00.000Z</pubTime>
-        
-        <tag>视频</tag>
-         
-        <tag>公益广告</tag>
-         
-         
-           
-             
-              <breadCrumb title="视频" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E8%A7%86%E9%A2%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/zhe-ge-shi-jie-zong-you-ren-tou-tou-ai-zhao-ni/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>这个世界，总有人偷偷爱着你</title>
-        <pubTime>2018-05-07T17:44:27.000Z</pubTime>
-        
-        <tag>视频</tag>
-         
-        <tag>公益广告</tag>
-         
-         
-           
-             
-              <breadCrumb title="视频" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E8%A7%86%E9%A2%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-boot/springbootshi-yong-hibernate-validatorli-yong-aop/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>SpringBoot使用hibernate-validator利用AOP实现统一参数校验</title>
-        <pubTime>2018-04-25T18:22:12.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>SpringBoot</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
-          
-             
-              <breadCrumb title="SpringBoot" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/SpringBoot/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/maven/apidocde-mavencha-jian-zi-dong-sheng-cheng-apidoc-json/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>apidoc的maven插件，自动生成apidoc.json</title>
-        <pubTime>2018-05-15T18:41:37.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>Maven</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
-          
-             
-              <breadCrumb title="Maven" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/Maven/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/cache/huan-cun-chuan-tou-huan-cun-ji-chuan-huan-cun-xue-beng-jie-jue-fang-an-fen-xi/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>缓存穿透，缓存击穿，缓存雪崩解决方案分析</title>
-        <pubTime>2017-04-18T03:27:23.000Z</pubTime>
-        
-        <tag>缓存</tag>
-         
-        <tag>Redis</tag>
-         
-         
-           
-             
-              <breadCrumb title="缓存技术" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E7%BC%93%E5%AD%98%E6%8A%80%E6%9C%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-boot/zi-ding-yi-springboot-starter-parent-tongyi-kaifa-guifan-tigao-kaifa-xiaolv/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>自定义SpringBoot的starter-parent，制定开发规范，和提高开发效率</title>
-        <pubTime>2018-05-25T02:40:00.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>SpringBoot</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
-          
-             
-              <breadCrumb title="SpringBoot" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/SpringBoot/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-cloud/spring-cloud-config-fen-bu-shi-pei-zhi-zhong-xin/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
+    <lastmod>2018-06-22T09:29:04.680Z</lastmod>
     <data>
         <display>
         <title>Spring Cloud Config分布式配置中心的使用和遇到的坑</title>
@@ -440,8 +254,154 @@
 
     
   <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-boot/zi-ding-yi-springboot-starter-parent-tongyi-kaifa-guifan-tigao-kaifa-xiaolv/</loc>
+    <lastmod>2018-06-22T09:29:04.679Z</lastmod>
+    <data>
+        <display>
+        <title>自定义SpringBoot的starter-parent，制定开发规范，和提高开发效率</title>
+        <pubTime>2018-05-25T02:40:00.000Z</pubTime>
+        
+        <tag>SpringBoot</tag>
+         
+        <tag>Java</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
+          
+             
+              <breadCrumb title="SpringBoot" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/SpringBoot/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-boot/springbootshi-yong-hibernate-validatorli-yong-aop/</loc>
+    <lastmod>2018-06-22T09:29:04.652Z</lastmod>
+    <data>
+        <display>
+        <title>SpringBoot使用hibernate-validator利用AOP实现统一参数校验</title>
+        <pubTime>2018-04-25T18:22:12.000Z</pubTime>
+        
+        <tag>SpringBoot</tag>
+         
+        <tag>Java</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
+          
+             
+              <breadCrumb title="SpringBoot" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/SpringBoot/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/maven/ru-he-shang-chuan-zi-ji-de-jarbao-dao-mavengong-gong-yuan-cheng-zhong-yang-cang-ku/</loc>
+    <lastmod>2018-06-22T09:29:04.651Z</lastmod>
+    <data>
+        <display>
+        <title>如何上传自己的jar包到maven公共远程中央仓库</title>
+        <pubTime>2018-03-16T06:48:41.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Maven</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
+          
+             
+              <breadCrumb title="Maven" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/Maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/maven/apidocde-mavencha-jian-zi-dong-sheng-cheng-apidoc-json/</loc>
+    <lastmod>2018-06-22T09:29:04.651Z</lastmod>
+    <data>
+        <display>
+        <title>apidoc的maven插件，自动生成apidoc.json</title>
+        <pubTime>2018-05-15T18:41:37.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Maven</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/"/>
+          
+             
+              <breadCrumb title="Maven" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/Java/Maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/spring-boot-tomcat-qi-dong-shi-bai/</loc>
+    <lastmod>2018-06-22T09:29:04.650Z</lastmod>
+    <data>
+        <display>
+        <title>SpringBoot启动Tomcat失败：Unable to start embedded Tomcat</title>
+        <pubTime>2017-12-12T11:40:00.000Z</pubTime>
+        
+        <tag>Exception</tag>
+         
+        <tag>SpringBoot</tag>
+         
+         
+           
+             
+              <breadCrumb title="异常记录" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/redis-qi-dong-bao-cuo-cluster-support-disabled/</loc>
+    <lastmod>2018-06-22T09:29:04.650Z</lastmod>
+    <data>
+        <display>
+        <title>SpringBoot的redis启动报错：ERR This instance has cluster support disabled</title>
+        <pubTime>2017-11-28T06:27:23.000Z</pubTime>
+        
+        <tag>Exception</tag>
+         
+        <tag>Redis</tag>
+         
+        <tag>SpringBoot</tag>
+         
+         
+           
+             
+              <breadCrumb title="异常记录" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/kafka-exception-could-not-be-resolved/</loc>
-    <lastmod>2018-06-15T08:50:06.000Z</lastmod>
+    <lastmod>2018-06-22T09:29:04.638Z</lastmod>
     <data>
         <display>
         <title>kafka发送消息问题，could not be resolved</title>
@@ -461,5 +421,45 @@
     </url>
 
     
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/FAQ/</loc>
+    <lastmod>2018-06-22T09:29:04.638Z</lastmod>
+    <data>
+        <display>
+        <title>常见异常</title>
+        <pubTime>2017-01-07T14:55:44.000Z</pubTime>
+        
+        <tag>常见异常</tag>
+         
+         
+           
+             
+              <breadCrumb title="异常记录" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/cache/huan-cun-chuan-tou-huan-cun-ji-chuan-huan-cun-xue-beng-jie-jue-fang-an-fen-xi/</loc>
+    <lastmod>2018-06-22T09:29:04.637Z</lastmod>
+    <data>
+        <display>
+        <title>缓存穿透，缓存击穿，缓存雪崩解决方案分析</title>
+        <pubTime>2017-04-18T03:27:23.000Z</pubTime>
+        
+        <tag>Redis</tag>
+         
+        <tag>缓存</tag>
+         
+         
+           
+             
+              <breadCrumb title="缓存技术" url="https://github.com/yetongxue/yetongxue.github.io.git/categories/%E7%BC%93%E5%AD%98%E6%8A%80%E6%9C%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
 </urlset>
