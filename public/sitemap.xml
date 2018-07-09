@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/other/docker/</loc>
+    
+    <lastmod>2018-07-09T08:13:05.093Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/about/index.html</loc>
+    
+    <lastmod>2018-07-09T08:05:15.569Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/tags/index.html</loc>
     
     <lastmod>2018-06-22T09:29:04.702Z</lastmod>
@@ -16,20 +30,6 @@
   </url>
   
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/about/index.html</loc>
-    
-    <lastmod>2018-06-22T09:29:04.690Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/utils/signUtil/</loc>
-    
-    <lastmod>2018-06-22T09:29:04.689Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/zhe-ge-shi-jie-zong-you-ren-tou-tou-ai-zhao-ni/</loc>
     
     <lastmod>2018-06-22T09:29:04.689Z</lastmod>
@@ -38,6 +38,13 @@
   
   <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/video/my-father-is-liar/</loc>
+    
+    <lastmod>2018-06-22T09:29:04.689Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/utils/signUtil/</loc>
     
     <lastmod>2018-06-22T09:29:04.689Z</lastmod>
     
@@ -65,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/tech/apollo-pei-zhi-zhong-xin-an-zhuang-bu-shu/</loc>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/tech/httqing-qiu-fan-hui-bian-ma-da-quan-yi-ji-jie-shi-fen-lei/</loc>
     
     <lastmod>2018-06-22T09:29:04.683Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/tech/httqing-qiu-fan-hui-bian-ma-da-quan-yi-ji-jie-shi-fen-lei/</loc>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/tech/apollo-pei-zhi-zhong-xin-an-zhuang-bu-shu/</loc>
     
     <lastmod>2018-06-22T09:29:04.683Z</lastmod>
     
@@ -86,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/linux/zi-dong-hua-gong-ju-ansiblewan-zheng-an-zhuang-pi-liang-de-zai-yuan-cheng-fu-wu-qi-shang-zhi-xing-ming-ling/</loc>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-cloud/spring-cloud-config-fen-bu-shi-pei-zhi-zhong-xin/</loc>
     
     <lastmod>2018-06-22T09:29:04.680Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/spring-cloud/spring-cloud-config-fen-bu-shi-pei-zhi-zhong-xin/</loc>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/linux/zi-dong-hua-gong-ju-ansiblewan-zheng-an-zhuang-pi-liang-de-zai-yuan-cheng-fu-wu-qi-shang-zhi-xing-ming-ling/</loc>
     
     <lastmod>2018-06-22T09:29:04.680Z</lastmod>
     
@@ -114,13 +121,6 @@
   </url>
   
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/maven/ru-he-shang-chuan-zi-ji-de-jarbao-dao-mavengong-gong-yuan-cheng-zhong-yang-cang-ku/</loc>
-    
-    <lastmod>2018-06-22T09:29:04.651Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/maven/apidocde-mavencha-jian-zi-dong-sheng-cheng-apidoc-json/</loc>
     
     <lastmod>2018-06-22T09:29:04.651Z</lastmod>
@@ -128,14 +128,21 @@
   </url>
   
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/spring-boot-tomcat-qi-dong-shi-bai/</loc>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/java/maven/ru-he-shang-chuan-zi-ji-de-jarbao-dao-mavengong-gong-yuan-cheng-zhong-yang-cang-ku/</loc>
+    
+    <lastmod>2018-06-22T09:29:04.651Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/redis-qi-dong-bao-cuo-cluster-support-disabled/</loc>
     
     <lastmod>2018-06-22T09:29:04.650Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/redis-qi-dong-bao-cuo-cluster-support-disabled/</loc>
+    <loc>https://github.com/yetongxue/yetongxue.github.io.git/exception/spring-boot-tomcat-qi-dong-shi-bai/</loc>
     
     <lastmod>2018-06-22T09:29:04.650Z</lastmod>
     
