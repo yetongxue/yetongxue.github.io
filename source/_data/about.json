@@ -14,7 +14,7 @@
 		"前端": 6
     },
 	"reward": [
-	    "../../photos/weixin_qrcode.png",
-		"../../photos/zhifubao_qrcode.png"
+	    "https://yetongxue.github.io/photos/weixin_qrcode.png",
+		"https://yetongxue.github.io/photos/zhifubao_qrcode.png"
 	]
 }
