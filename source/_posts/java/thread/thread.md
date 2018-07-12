@@ -8,7 +8,8 @@ categories:
 ---
 
 # 代码分析
-先来看一下这段代码，运行的结果会是什么？
+项目中生成报表，有时候我们会采用使用多线程来缩短程序运行时间，在不影响服务器性能的情况下，一个线程生成一个报表，等待所有报表都完成后，再执行某些操作。如果是实现Thread类的情况下，可以采用Thread.join()方法进行线程阻塞，此方法不进行详述，下面的方式是通过ExecutorService线程池的方式实现多线程情况，使用future.get()的阻塞性来实现。先来看一下这段代码，运行的结果会是什么？
+<!-- more -->
 ```java
 public class Test {
 	public static void main(String[] args) {
@@ -69,7 +70,6 @@ loop num：2
 querySlowMethod1----end
 loop num：1
 ```
-<!-- more -->
 有时候我们希望等所有子线程执行完成后，才继续主线程后面的工作，即我们希望最后输出的是：
 ---------------------main thread end---------------------
 这时，我们可以使用future.get()的阻塞性来实现，实现代码如下：
@@ -77,7 +77,7 @@ loop num：1
 public class Test {
 	public static void main(String[] args) {
 		Test test = new Test();
-		List<Future<?>> futures = new ArrayList<Future<?>>(100);
+		List<Future<?>> futures = new ArrayList<Future<?>>(2);
 		ExecutorService fixedThreadPool = Executors.newFixedThreadPool(5); 
 		for (int i = 1; i < 3; i++) {
 			final int index = i;
