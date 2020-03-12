@@ -91,7 +91,8 @@ tag_cloud:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yetongxue/yetongxue.github.io.git
+  #repo: https://github.com/yetongxue/yetongxue.github.io.git
+  repo: https://yetongxue:Scott947234lsd_fjsodurweiur2374234ewr@github.com/yetongxue/yetongxue.github.io.git
   branch: master
   message: edit
     
